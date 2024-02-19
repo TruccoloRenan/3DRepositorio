@@ -14,12 +14,12 @@ const ServiceCard = ({ index, title, icon }) => {
         className="w-full green-pink-gradient p-[1px] rounded=[20px] shadow-card"
       >
         <div
-        options={{
-          max:45,
-          scale: 1,
-          speed: 450
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450
+          }}
+          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
           <img src={icon} alt={title} className='w-16 h-16 object-contain' />
           <h3 className='text-white text-[20px] font-bold text-center' >
@@ -38,27 +38,27 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-      <motion.p 
-      variants={fadeIn("", ", 0.1, 1")}
-      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      <motion.p
+        variants={fadeIn("", ", 0.1, 1")}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Olá! 🌟
+        Hello! 🌟
 
-        Sou um entusiasta do mundo da tecnologia, um Desenvolvedor Full Stack Pleno com uma paixão vibrante por criar e inovar em back-end e front-end. Minha jornada com Node.js e React tem sido uma aventura em otimização de processos e na criação de soluções de software que não apenas funcionam bem, mas também encantam. Adoro a energia de ambientes dinâmicos onde posso trazer novas ideias à vida!
+        I am an enthusiast in the world of technology, a Full Stack Developer with a vibrant passion for creating and innovating in back-end and front-end. My journey with Node.js and React has been an adventure in process optimization and creating software solutions that not only work well, but also delight. I love the energy of dynamic environments where I can bring new ideas to life!
 
-        Minha formação é uma mistura de teoria e prática: a Engenharia de Software e Análise e Desenvolvimento de Sistemas. Ah, e meu inglês fluente me abre portas para projetos globais e equipes multiculturais.
+        My training is a mix of theory and practice: Software Engineering and Systems Analysis and Development. Oh, and my fluent English opens doors for me to global projects and multicultural teams.
 
-        Minha experiência profissional é uma colcha de retalhos colorida e impressionante: desde aprimorar front-ends na Fretefy até reconstruir sistemas na Tech Mahindra, cada projeto foi um novo aprendizado. No MatrixCargo, no SóCarrão.com e na ApoioEcolimp, mergulhei de cabeça no desenvolvimento de software, jogando com Angular, React, Next.js e Node.js para criar algo especial.
+        My professional experience is a colorful and impressive patchwork: from improving front-ends at Fretefy to rebuilding systems at Tech Mahindra, each project was a new learning experience. At MatrixCargo, SóCarrão.com and ApoioEcolimp, I dove headfirst into software development, playing with Angular, React, Next.js and Node.js to create something special.
 
-        Falando de habilidades técnicas, gosto de pensar em mim como um 'caixa de ferramentas' completa: CSS, HTML, TypeScript, Next.js, Bootstrap, React, JavaScript, Angular, SCSS, VueJS no front-end; e C#, Python, Node.js no back-end, sem esquecer dos bancos de dados SQL e Repository. Estou sempre aprendendo e me aprimorando, como no Pacote Full Stack Master da Dani Code.
+        Speaking of technical skills, I like to think of myself as a complete 'toolbox': CSS, HTML, TypeScript, Next.js, Bootstrap, React, JavaScript, Angular, SCSS, VueJS on the front end; and C#, Python, Node.js on the back-end, without forgetting the SQL and Repository databases. I'm always learning and improving myself, like Dani Code's Full Stack Master Package.
 
-        Estou super animado para conectar com profissionais e empresas que buscam um desenvolvedor cheio de ideias e prontidão para transformar desafios em oportunidades. Vamos juntos navegar no empolgante mundo do desenvolvimento Full Stack e fazer a diferença com soluções inovadoras em software! Vem comigo nessa jornada tecnológica? 👨‍💻✨
+        I'm super excited to connect with professionals and companies looking for a developer full of ideas and readiness to transform challenges into opportunities. Let's navigate the exciting world of Full Stack development together and make a difference with innovative software solutions! Are you coming with me on this technological journey? 👨‍💻✨
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-      {services.map((service, index) => (
-        <ServiceCard key={service.title} index={index} {...service} />
-      ))}
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
       </div>
     </>
   )

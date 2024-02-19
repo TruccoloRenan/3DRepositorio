@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    csharp
   } from "../assets";
   
   export const navLinks = [
@@ -47,15 +48,15 @@ import {
     },
     {
       title: "React Developer",
-      icon: mobile,
+      icon: reactjs,
     },
     {
       title: "Node Backend Developer",
-      icon: backend,
+      icon: nodejs,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "C# Back End Developer",
+      icon: csharp,
     },
   ];
   
@@ -81,20 +82,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -105,13 +98,14 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "C#",
+      icon: csharp
     },
     {
       name: "docker",
       icon: docker,
     },
+   
   ];
   
   const experiences = [
