@@ -5,6 +5,7 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import { i18n } from "../translate/i18n";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>{titles.introcucao}</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p
