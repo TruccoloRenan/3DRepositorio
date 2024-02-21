@@ -2,8 +2,11 @@ const messages ={
     pt: {
         translations: {
             titles: {
-                introdução: "Introdução",
+                introducao: "Introdução",
                 visaoGeral: "Visao Geral"
+            },
+            messages: {
+                introduction: "em construção"
             }
         }
     }
