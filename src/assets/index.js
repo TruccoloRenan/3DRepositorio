@@ -20,12 +20,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import csharp from "./tech/csharp.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import gruposafira from "./company/gruposafira.jpeg";
+import matrixcargo from "./company/matrixcargo.png";
+import fretefy from "./company/fretefy.png";
+import techmahindra from "./company/techmahindra.png";
+import socarrao from "./company/socarrao.png";
+import apoioecolimp from "./company/apoioecolimp.png"
+import maisfuturo from "./company/maisfuturo.jpeg";
+import helper from "./company/helper.jpeg";
+import korp from "./company/korp.jpeg";
+import setuptec from "./company/setuptec.jpeg";
+ 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -33,7 +40,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
+  creator, 
   mobile,
   web,
   github,
@@ -52,11 +59,18 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  gruposafira,
+  matrixcargo,
   carrent,
   jobit,
   tripguide,
+  csharp,
+  fretefy,
+  techmahindra,
+  socarrao,
+  apoioecolimp,
+  maisfuturo,
+  helper,
+  korp,
+  setuptec
 };
